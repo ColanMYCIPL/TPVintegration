@@ -1,24 +1,24 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'fa0a66b09ba8577f60b2d2bca441699523e81635',
     'name' => 'colanmycipl/tpvintegration',
   ),
   'versions' => 
   array (
     'colanmycipl/tpvintegration' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'fa0a66b09ba8577f60b2d2bca441699523e81635',
     ),
     'twilio/sdk' => 
     array (

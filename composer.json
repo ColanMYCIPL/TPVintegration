@@ -16,7 +16,7 @@
     "laravel": {
         "providers": [
             "ColanMYCIPL\\TPVintegration\\TPVintegrationServiceProvider"
-        ],
+        ]
     }
 },
    "autoload": {
