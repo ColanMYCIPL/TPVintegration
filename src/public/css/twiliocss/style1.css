@@ -1,0 +1,682 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container img{
+    padding: 20px;
+}
+.side-menu{
+    width: 100%; 
+    float: left;
+}
+.header{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+.header .right{
+    padding-right: 20px;
+}
+.footer{
+    color: white;
+    background-color: black; 
+    width: 100%;
+    float: left;
+    padding: 8px;
+    
+}
+.foot1{
+    width: 33%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.list{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+    border: 1px solid black;
+    margin-top: 20px;
+    overflow-y: auto;
+    min-height: 215px;
+}
+.list ul{
+    list-style-type: none;
+}
+.list i{
+    padding: 5px;
+}
+.footer a{
+    color: green;
+}
+.sup-col{
+   color:white;
+}
+span.student_lists i {
+    color: #2196f3;
+}
+ 
+.list li {
+    border: 1px solid #dddddd;
+    padding: 4px;
+    width: 99%;
+    margin: auto;
+}
+.inner{
+    width: 100%;
+    float: left;
+    
+}
+.inner1{
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+.inner2{
+    width: 60%;
+    float: right;
+}
+.in-row1{
+    width: 100%;
+    display: inline-block;
+}
+.in-row2{
+    width: 100%;
+    display: inline-block;
+}
+.inner2 a{
+    color: black;
+    font-size: 10px;
+    padding-right: 75px;
+}
+ 
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 120px;
+    font-size: 10px;
+    display:inline-block;
+    width: 85%;
+background: #ddd;
+margin-top: 9px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.form-border{
+    border-radius: 8px;
+}
+.box1{
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+.bx1{
+    width: 93%;
+    max-width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box-img{
+    width: 100%;
+    max-width: 100%;
+    height: auto; 
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.footer1{
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+ 
+.foot2{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.footer1 i{
+    padding: 20px 20px;
+    color: gray;
+
+}
+.but-1{
+    margin-top: 30px;
+    background-color: yellow!important;
+}
+.w-10 {
+    width: 100%;
+    background-size: cover;
+    max-width: 100px !important;
+    border-radius:10px!important
+}
+.list ul{
+    padding-left: 0px;
+}
+.list li{
+    border-bottom: 1px solid #b7b7b7; 
+    padding: 4px;
+}
+
+.list li:hover {
+    background: purple;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #f44336;
+}
+
+.user_info.d-flex {
+    width: 100%;
+    float: left;
+}
+.user_info_profile {
+    width: 100%;
+    float: left;
+    border: 2px solid #000;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.user_info_profile a i {
+    font-size: 17px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+    color: #888787;
+}
+.user_info_profile .in-row1 a {
+    width: 50%;
+    display: inline-block;
+    padding-right: unset;
+}
+.user_info_profile .in-row1 {
+    display: flex;
+}
+.form-group.has-search.form-border {
+    position: relative;
+}
+.user_info_profile .inner1 h4 {
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/* .image img {
+    width: 100%;
+} */
+.toggle_dasboard {
+    position: relative;
+}
+
+.toggle_dasboard {
+    min-height: 600px;
+}
+.carousel-inner .col-12 {
+    padding: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+div#carouselExampleControls img.w-10.m-auto {
+    padding: 0px; 
+    border-radius: 0 !important;
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+span.student_lists img {
+    width: 26px;
+    height: 20px;
+    padding: 0px;
+}
+.side-menu .box .ml-auto a i:hover {
+    color: #007bff;
+}
+
+.side-menu .box .ml-auto a i {
+    color: #9d9d9d;
+}
+.side-menu .box {
+    border: 1px solid #000000;
+}
+.inner_slierWrap {
+    width: 106px;
+}
+.inner_slierWrap p {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+.inner_slierWrap {
+    width: 106px;
+    border-top: 1px solid #444444;
+    border-right: 1px solid #444444;
+}
+
+div#carouselExampleControls .carousel-control-prev {
+    left: -36px;
+}
+div#carouselExampleControls .carousel-control-next {
+    right: -36px;
+}
+.foot2 h6 {
+    font-size: 13px;
+}
+
+
+
+
+/*responsive*/
+@media only screen and (min-width:320px) and (max-width:991px) {
+  
+.hello{
+    margin-top: 50px!important;
+}
+.side-menu {
+    width: 100%;
+    max-width:unset;
+    border: 1px solid black;
+}
+.footer i { 
+    box-sizing: border-box;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+    width: 95px!important;
+    font-size: 6px!important;
+    display: inline-block;
+}
+.footer h6 {
+    font-size: 14px;
+}
+.box-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0px;
+}
+.w-11{
+    display: none;
+}
+.footer1 i {
+    padding: 5px 5px!important;
+    color: gray;
+}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .side-menu {
+        width: 100%;
+        max-width: 410px;
+        border: 1px solid black;
+    }
+    .footer1 i {
+        padding: 31px 43px!important;
+        color: gray;
+    }
+    .box1 {
+        padding: 10px;
+        width: 100%;
+        max-width: 100%;
+        border: 1px solid black;
+    }
+    .box-img {
+        width: 100%;
+        max-width: 100% !important;
+        height: auto;
+        position: absolute;
+        bottom: 0px;
+        border: none;
+    }
+    .w-11{
+        display: inline;
+    }
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .box-img {
+        width: 100%;
+        max-width: 507px!important;
+        height: 100px;
+        border: 1px solid black;
+        position: absolute;
+        bottom: 119px!important;
+    }
+    
+    .footer1 i {
+        padding: 3px 30px!important;
+        color: gray;
+    }
+    .w-12{
+        display: none;
+    }
+    
+}
+@media only screen and (min-width:1024px) and (max-width:1336px) {
+    .footer i {
+        padding-left: 10px;
+        padding-right: 59px;
+        box-sizing: border-box;
+    }
+    .box-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border: none;
+        position: absolute;
+        bottom: 0px;
+    }
+    .footer1 i {
+        padding: 31px 28px!important;
+        color: gray;
+    }
+    .w-12{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.carousel-inner img {
+    padding: 0px;
+}
+div#myCarousel {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+div#carousel-thumbs .thumb img {
+    width: 100%;
+    border: 1px solid #6a6a6a;
+    height: 100px;
+}
+div#carousel-thumbs .thumb p {
+    text-align: center;
+    color: #000000;
+    
+}
+.side-menu .image img {
+    width: 100%;
+    padding: 0px;
+}
+.side-menu .row.header {
+    padding: 20px 12px;
+}
+
+element.style {
+}
+.list li:hover span.student_lists i {
+    color: #ffffff;
+}
+
+
+
+
+
+.ui-window-bar .ui-button {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 20px;
+  }
+  
+  .ui-window-bar .ui-window-minimize {
+    right: calc(.3em + 40px);
+  }
+  
+  .ui-window-bar .ui-window-maximize {
+    right: calc(.3em + 20px);
+  }
+  .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable div#window {
+    padding: 0px;
+}
+.cusotm_chat_option h6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1776c1;
+}
+.chat_descp {
+    background: lightgrey;
+    padding: 8px;
+    min-height: 500px;
+}
+
+
+.chat_descp li {
+    font-size: 14px;
+    list-style: none;
+}
+span.towhom {
+    color: #066bba;
+    font-weight: 600;
+}
+span.mine {
+    color: gray;
+}
+.chat_descp li p {
+    color: #000000;
+}
+#window
+{
+    display: none;
+}
+.flex_groupform {
+    width: 100%;
+    float: left;
+}
+.flex_groupform {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.flex_groupform select {
+    border: none;
+    font-size: 11px !important;
+    background: #dddddd;
+    padding: 3px;
+    border-radius: 4px;
+}
+.flex_groupform label {
+    font-size: 11px;
+}
+span#ui-id-1 {
+    display: none;
+}
+.chat_box textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+}
+.chat_box textarea:focus {
+    outline: 0;
+}
+
+.chat_box {
+    width: 100%;
+    float: left;
+}
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons.ui-draggable.ui-resizable {
+    border: 1px solid #000000;
+    border-radius: 0;
+    padding: 0;
+    height: 768px !important;
+    width: 200px !important;
+    top: 92px !important;
+}
+.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix {
+    display: none;
+}
+
+.flex_groupform, .chat_box {
+    padding: 0px 10px;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 1.4em 1em !important;
+    position: relative;
+}
+.ui-dialog-titlebar-buttonpane a, .ui-dialog-titlebar-buttonpane button {
+    border: none !important;
+    background: none !important;
+    margin: 0px 5px;
+}
+.ui-dialog-titlebar-buttonpane .ui-icon-circle-close {
+    background: url('../Images/cancel.png') !important;
+}
+.ui-dialog .ui-dialog-titlebar-maximize
+{
+    background: url('../Images/squares.png') !important;
+}
+.ui-dialog .ui-dialog-titlebar-minimize
+{
+    background: url('../Images/remove.png') !important;
+}
+a.ui-dialog-titlebar-collapse.ui-corner-all.ui-state-default {
+    display: none !important;
+}
+ 
+.carousel-container.position-relative {
+    position: absolute !important;
+    bottom: 0px;
+    width: 100%;
+    float: left;
+}
+div#white_board_popup {
+   
+}
+#white_board_popup
+{
+    display: none;
+}
+#white_board_popup>div {
+   
+}
+.content_toolbar>img {
+    width: 100%;
+}
+#white_close
+{
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px) {
+    .footer1 { 
+        display: block; 
+    }
+    .foot2 {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+}
+
+.carousel {
+    position: relative;
+    }
+    .carousel-item img {
+    object-fit: cover;
+    }
+    #carousel-thumbs {
+    background: rgba(255,255,255,.3);
+    bottom: 0;
+    left: 0;
+    padding: 0 0px;
+    right: 0;
+    }
+    #carousel-thumbs img { 
+    cursor: pointer;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+    width: 50px;
+    }
+    @media all and (max-width: 767px) {
+    .carousel-container #carousel-thumbs img {
+    border-width: 3px;
+    }
+    }
+    @media all and (min-width: 576px) {
+    .carousel-container #carousel-thumbs {
+    position: absolute;
+    }
+    }
+    @media all and (max-width: 576px) {
+    .carousel-container #carousel-thumbs {
+    background: #ccccce;
+    }
+    }
+    .scroll_down {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 23px;
+    }
+
+    /* student start */
+    .student_img{
+        max-height: 70%;
+        overflow-y: scroll;
+    }
+    .student_img img{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+        padding: 0px;
+    }
+
+    .student_img::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.student_img::-webkit-scrollbar
+{
+	width: 7px;
+	background-color: #F5F5F5;
+}
+
+.student_img::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #007bff;
+}
+.student_chart_back{
+    background-color: #000;
+    height: 60%;
+}
+.student_chart_back .flex_groupform label {
+    color: #fff;
+}

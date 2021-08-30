@@ -1,0 +1,28 @@
+{
+    "name": "colanmycipl/tpvintegration",
+    "description": "Integrate twilio programmable video with new features in laravel",
+    "type": "library",
+    "require": {
+        "twilio/sdk": "dev-main"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naseema",
+            "email": "naseema.allabakshi@colanonline.com"
+        }
+    ],
+    "extra": {
+    "laravel": {
+        "providers": [
+            "ColanMYCIPL\\TPVintegration\\TPVintegrationServiceProvider"
+        ],
+    }
+},
+   "autoload": {
+        "psr-4": {
+            "ColanMYCIPL\\TPVintegration\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
