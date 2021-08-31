@@ -39,7 +39,9 @@ class TPVintegrationServiceProvider extends ServiceProvider
     $this->publishes([
             __DIR__.'/Jobs' => 'app/Jobs',
         ], 'public');
-
+$this->publishes([
+            __DIR__.'/Models' => 'app/Models',
+        ], 'public');
               $this->publishes([
         __DIR__.'/config/twilioservices.php' => config_path('twilioservices.php')
     ], 'config');
