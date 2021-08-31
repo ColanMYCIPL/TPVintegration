@@ -3,7 +3,7 @@
     "description": "Integrate twilio programmable video with new features in laravel",
     "type": "library",
     "require": {
-        "twilio/sdk": "dev-main"
+        "twilio/sdk": "^6.4"
     },
     "license": "MIT",
     "authors": [

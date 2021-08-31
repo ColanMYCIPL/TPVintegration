@@ -78,8 +78,6 @@ Required parameters for student(GET method)
 **Sample file** will be available in app/Jobs/twilioCompositionStatusUpdate
 Need to change as per your requirement.
 ***Separate api's available for updating and creation composition.***
-Add this below line to run cronjob for creating and updating the composition.   
-`$schedule->job(new twilioCompositionStatusUpdate)->cron('*/5 * * * *');`
 
 
   

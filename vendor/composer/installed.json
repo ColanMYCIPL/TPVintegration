@@ -2,8 +2,8 @@
     "packages": [
         {
             "name": "twilio/sdk",
-            "version": "dev-main",
-            "version_normalized": "dev-main",
+            "version": "6.28.1",
+            "version_normalized": "6.28.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twilio/twilio-php.git",
@@ -27,7 +27,6 @@
                 "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
             },
             "time": "2021-08-25T20:20:47+00:00",
-            "default-branch": true,
             "type": "library",
             "installation-source": "source",
             "autoload": {

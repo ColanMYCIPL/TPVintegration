@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4fc6c1817aeab4224cfb895229475f4",
+    "content-hash": "8322ec1a4d471991abdff4bd6a2e7f7e",
     "packages": [
         {
             "name": "twilio/sdk",
-            "version": "dev-main",
+            "version": "6.28.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twilio/twilio-php.git",
@@ -31,7 +31,6 @@
             "suggest": {
                 "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -65,9 +64,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "twilio/sdk": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
