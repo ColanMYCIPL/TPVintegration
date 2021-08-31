@@ -1,0 +1,236 @@
+/* LOGIN */
+.login-btr-left{
+    background:url(/images/Login_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+.login-begetter {
+    height: 100vh;
+}
+.login-btr-right {
+    background: linear-gradient(111.34deg, #1F3D74 9.1%, #325AA3 93.45%);
+}
+.lbr-base {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 48px 36px 43px 36px;
+        float: left;
+    width: 100%;
+    min-height: 550px;
+    height: 550px;
+    margin: auto;
+        max-width: 437px;
+}
+.login-btr-right {
+    padding: 0px 66px !important;
+    display: flex;
+    margin: auto;
+    height: 100%;
+}
+.lbr-base-caption h2 {
+    font-family: asap;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 25px;
+}
+.lbr-base-caption {
+    text-align: center;
+}
+.lbr-form-sections label {
+    display: block;
+    font-family: Asap;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color:#808080;
+margin-bottom:10px;
+}
+.lbr-form-sections .form-control {
+    background: transparent;
+    float: left;
+    width: 100%;
+    height: auto;
+    border: 0;
+    line-height: normal;
+    position:relative;
+}
+.lbr-form-sections {
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+.lbr-form-sections input, .lbr-form-sections select {
+    background: #fff;
+    border: 1px solid #CACED6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 20px;
+    color: #2B4F90;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    max-height:45px;
+}
+.lbr-form-sections select {
+    appearance: none;
+    -moz-appearance: none;
+-webkit-appearance: none;
+background:url(../images/vector-arrow.png) no-repeat;
+background-position:92%;
+}
+.lbr-form-sections input.password {
+    color: #515151;
+}
+.lbr-form-sections input:focus-visible, .lbr-form-sections select:focus-visible, .lbr-form-sections textarea:focus-visible  {
+    border:1px solid #2C5193;
+    outline:0 !important;
+    background:#EEF3FB;
+}
+ .lbr-form-sections input:focus, .lbr-form-sections select:focus, .lbr-form-sections textarea:focus{
+    border:1px solid #2C5193;
+    outline:0 !important;
+    background:#EEF3FB;
+}
+.form-end .btn {
+    background: linear-gradient(
+111.34deg
+, #1F3D74 9.1%, #325AA3 93.45%);
+    border-radius: 5px;
+    width: 255px;
+    height: 50px;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom:28px;
+}
+.form-end{
+    display:flex;
+    flex-direction:column;
+        justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+    width:100%;
+    float: left;
+}
+.form-end a {
+    font-family: Asap;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #808080;
+}
+
+@media only screen and (max-width:991px){
+.login-btr-left {
+    display: none;
+}
+.login-btr-right {
+    padding: 0px 25px !important;
+}
+.lbr-base {
+    padding: 48px 20px 43px 20px;
+}
+}
+@media only screen and (max-width:767px){
+.form-end .btn {
+    width: 100%;
+}
+}
+
+/*End LOGIN */
+
+/* Register */
+.login-btr-left.register-btr-left{
+    background: url(/images/Register_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.login-btr-left.student-banner{
+    background: url(/images/student_reg_banner.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#style-1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #1F3D74 ;
+}
+#style-1.lbr-form-sections {
+    min-height: 210px;
+    height: 210px;
+    overflow-x: auto;
+}
+.lbr-form-sections textarea {
+    background: #FFFFFF;
+    border: 1px solid #CACED6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    font-family: Asap;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #707070;
+    padding: 12px 20px;
+    height:133px;
+    resize:none;
+}
+#btnToggle, #btnToggle1 {
+    position: absolute;
+    right: 10px;
+    top: 33%;
+    background: transparent;
+    border: 0;
+}
+#btnToggle i, #btnToggle1 i {
+    color: #808080;
+}
+.form-group {
+    position: relative;
+        padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.label.error
+{
+position: absolute;
+bottom: -5px;
+}
+.pswd_formgroup{
+   height: 110px;
+max-height: 110px;
+}
+/*End Register */
+

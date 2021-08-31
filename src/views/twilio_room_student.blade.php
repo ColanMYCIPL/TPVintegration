@@ -6,16 +6,16 @@
        <meta name="csrf-token" content="{{ csrf_token() }}">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
-      <link rel="stylesheet" href="{{ asset('/css/twiliocss/style1.css') }}">
-      <link rel="stylesheet" href="{{ asset('/css/twiliocss/bootstrap/bootstrap.min.css') }}">
-      <link rel="stylesheet" href="{{ asset('/css/twiliocss/responsive.css') }}">
-      <link rel="stylesheet" href="{{ asset('/css/twiliocss/jquery-ui.css') }}">
+      <link rel="stylesheet" href="{{ asset('/TPVintegration/css/twiliocss/style1.css') }}">
+      <link rel="stylesheet" href="{{ asset('/TPVintegration/css/twiliocss/bootstrap/bootstrap.min.css') }}">
+      <link rel="stylesheet" href="{{ asset('/TPVintegration/css/twiliocss/responsive.css') }}">
+      <link rel="stylesheet" href="{{ asset('/TPVintegration/css/twiliocss/jquery-ui.css') }}">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-            <link rel="stylesheet" href="{{ asset('/twiliofonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
-      <link rel="icon" href="{{ asset('/public/homepage/images/sure-site-min.png') }}" width="12px" height="10px"/>
-  <script src="{{ asset('/homepage/js/jquery.min.js') }}"></script>
-  <script src="{{ asset('/homepage/js/popper.min.js') }}"></script>
-  <script src="{{ asset('/homepage/js/bootstrap.min.js') }}"></script>
+            <link rel="stylesheet" href="{{ asset('/TPVintegration/twiliofonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+      <link rel="icon" href="{{ asset('/TPVintegration/images/twilioImages/sure-site-min.png') }}" width="12px" height="10px"/>
+  <script src="{{ asset('/TPVintegration/homepage/js/jquery.min.js') }}"></script>
+  <script src="{{ asset('/TPVintegration/homepage/js/popper.min.js') }}"></script>
+  <script src="{{ asset('/TPVintegration/homepage/js/bootstrap.min.js') }}"></script>
   <!-- Asap -->
      <script type="text/javascript">
     var accessToken ={!! json_encode($accessToken) !!};
@@ -29,7 +29,6 @@ var studentid ={!! json_encode($studentid) !!};
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
   <!-- twilio -->
-  <link rel="stylesheet" href="{{ asset('/homepage/css/twilio.css') }}">
 <style>
   .student_div_view video:nth-of-type(2){
   display: none!important;
@@ -150,8 +149,8 @@ section.logo a {
 /*responsive screen*/
 </style>
 
-  <script src="{{ asset('/js/twiliojs/twilio.js') }}"></script>
-   <script data-main="scripts/app" src="{{ asset('/js/twiliojs/require.js') }}"></script>
+  <script src="{{ asset('/TPVintegration/js/twiliojs/twilio.js') }}"></script>
+   <script data-main="scripts/app" src="{{ asset('/TPVintegration/js/twiliojs/require.js') }}"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://media.twiliocdn.com/sdk/js/sync/releases/0.12.4/twilio-sync.min.js"></script>
 <script src="https://sdk.twilio.com/js/video/releases/2.15.2/twilio-video.min.js"></script>
@@ -162,7 +161,7 @@ section.logo a {
    <body>
       <section class="logo">
          <div class="container">
-            <a href="#"><img src="{{ asset('/images/twilioImages/logo.png') }}" alt=""></a>
+            <a href="#"><img src="{{ asset('/TPVintegration/images/twilioImages/logo.png') }}" alt=""></a>
          </div>
       </section>
       <!--------------------------------------------------------------------------------->
@@ -174,15 +173,15 @@ section.logo a {
                     <div id="student_div"> 
                      
                    </div>
-                     <img src="{{ asset('/images/twilioImages/student_tw2.jpg') }}">
-                     <img src="{{ asset('/images/twilioImages/student_tw3.jpg') }}">
-                     <img src="{{ asset('/images/twilioImages/studnet_tw4.jpg') }}">
-                     <img src="{{ asset('/images/twilioImages/student_tw5.jpg') }}">
-                     <img src="{{ asset('/images/twilioImages/student_tw6.jpg') }}">
-                     <img src="{{ asset('/images/twilioImages/teacher.jpeg') }}">
-                     <img src="{{ asset('/images/twilioImages/teacher.jpeg') }}">
-                     <img src="{{ asset('/images/twilioImages/teacher.jpeg') }}">
-                     <img src="{{ asset('/images/twilioImages/teacher.jpeg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/student_tw2.jpg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/student_tw3.jpg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/studnet_tw4.jpg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/student_tw5.jpg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/student_tw6.jpg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/teacher.jpeg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/teacher.jpeg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/teacher.jpeg') }}">
+                     <img src="{{ asset('/TPVintegration/images/twilioImages/teacher.jpeg') }}">
                   </div>
                </div>
                <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 hello">
@@ -309,12 +308,12 @@ section.logo a {
             </div>
          </div>
       </section>
-<script src="{{ asset('/js/twiliojs/jquery-3.5.1.min.js') }}"></script>
-      <script src="{{ asset('/js/twiliojs/jquery.js') }}"></script>
-      <script src="{{ asset('/js/twiliojs/bootstrap.min.js') }}"></script>
-      <script src="{{ asset('/js/twiliojs/jquery-ui.js.js') }}"></script>
-      <script type="text/javascript" src="{{ asset('/js/twiliojs/jquery.dialogextend.js') }}"></script>
-      <script type="text/javascript" src="{{ asset('/js/twiliojs/jquery.dialogextend.min.js') }}"></script>
+<script src="{{ asset('/TPVintegration/js/twiliojs/jquery-3.5.1.min.js') }}"></script>
+      <script src="{{ asset('/TPVintegration/js/twiliojs/jquery.js') }}"></script>
+      <script src="{{ asset('/TPVintegration/js/twiliojs/bootstrap.min.js') }}"></script>
+      <script src="{{ asset('/TPVintegration/js/twiliojs/jquery-ui.js.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('/TPVintegration/js/twiliojs/jquery.dialogextend.js') }}"></script>
+      <script type="text/javascript" src="{{ asset('/TPVintegration/js/twiliojs/jquery.dialogextend.min.js') }}"></script>
       <!--- mizimize and maximize dialog-->
       <script>
         $('#stopRecord').click(false);

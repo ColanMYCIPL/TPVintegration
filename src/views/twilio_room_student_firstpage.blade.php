@@ -6,12 +6,12 @@
       <meta name="csrf-token" content="{{ csrf_token() }}">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
-      <link rel="stylesheet" href="{{ asset('/css/twiliocss/bootstrap/bootstrap.min.css') }}">
-      <link rel="stylesheet" type="text/css" href="{{ asset('/css/twiliocss/jquery-ui.css') }}">
+      <link rel="stylesheet" href="{{ asset('/TPVintegration/css/twiliocss/bootstrap/bootstrap.min.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('/TPVintegration/css/twiliocss/jquery-ui.css') }}">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-            <link rel="stylesheet" href="{{ asset('/twiliofonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
-      <link rel="icon" href="{{ asset('/public/homepage/images/sure-site-min.png') }}" width="12px" height="10px"/>
-  <script src="{{ asset('/homepage/js/jquery.min.js') }}"></script>
+            <link rel="stylesheet" href="{{ asset('/TPVintegration/twiliofonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+      <link rel="icon" href="{{ asset('/TPVintegration/images/sure-site-min.png') }}" width="12px" height="10px"/>
+  <script src="{{ asset('/TPVintegration/homepage/js/jquery.min.js') }}"></script>
   <!-- Asap -->
   <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
    <script type="text/javascript">
@@ -29,7 +29,7 @@ var studentid ={!! json_encode($studentid) !!};
 <?php } ?>
 
   </script>
-  <script src="{{ asset('/js/twiliojs/twilio.js') }}"></script>
+  <script src="{{ asset('/TPVintegration/js/twiliojs/twilio.js') }}"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://sdk.twilio.com/js/video/releases/2.15.2/twilio-video.min.js"></script>
 <!-- <script src="//media.twiliocdn.com/sdk/js/video/v1/twilio-video.min.js"></script> -->

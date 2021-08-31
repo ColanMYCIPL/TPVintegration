@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'fa0a66b09ba8577f60b2d2bca441699523e81635',
+    'reference' => 'db0d9919e5cfa560b46cb3c0886bd04fd4195be5',
     'name' => 'colanmycipl/tpvintegration',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'fa0a66b09ba8577f60b2d2bca441699523e81635',
+      'reference' => 'db0d9919e5cfa560b46cb3c0886bd04fd4195be5',
     ),
     'twilio/sdk' => 
     array (

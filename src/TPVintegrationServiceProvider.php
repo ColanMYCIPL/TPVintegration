@@ -29,11 +29,17 @@ class TPVintegrationServiceProvider extends ServiceProvider
              $this->loadRoutesFrom(__DIR__.'/routes/web.php');
              $this->loadMigrationsFrom(__DIR__.'/database/migrations');
              $this->publishes([
-        __DIR__.'/public' => public_path('vendor/ColanMYCIPL/TPVintegration'),
+        __DIR__.'/public' => public_path('/TPVintegration'),
     ], 'public');
              $this->publishes([
-        __DIR__.'/views' => resource_path('views/vendor/ColanMYCIPL/TPVintegration'),
+        __DIR__.'/views' => resource_path('views'),
     ]);
+    
+
+    $this->publishes([
+            __DIR__.'/Jobs' => 'app/Jobs',
+        ], 'public');
+
               $this->publishes([
         __DIR__.'/config/twilioservices.php' => config_path('twilioservices.php')
     ], 'config');

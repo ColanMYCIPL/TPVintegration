@@ -1,0 +1,431 @@
+@media only screen and (max-width:1600px)
+{
+.banner-caption {
+    left: 6.3%;
+}
+.banner-section .carousel-control-prev {
+    left: 0!important;
+}
+.banner-section .carousel-control-next {
+    right: 0!important;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 6% !important;
+}
+.pre_header-right span a {
+    font-size: 18px;
+}
+.header-section-right ul li {
+    margin-right: 34px;
+}
+.banner-caption h3 {
+    font-size: 25px;
+}
+.banner-caption p {
+    font-size: 16px;
+    margin: 20px 0px 25px 0px;
+}
+.banner-caption {
+    padding: 30px;
+	width: 540px;
+}
+.btn.load-more {
+    background: #2336DD;
+    border-radius: 5px;
+    width: 150px;
+}
+.ss-heading {
+    font-size: 28px;
+}
+.academic-section-left p {
+    font-size: 17px;
+    margin: 20px 0px 24px 0px;
+}
+.course-details b {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.course-details {
+    margin-bottom: 29px;
+}
+.course-details b {
+    font-size: 18px;
+}
+.course-details svg {
+    width: 65px;
+    height: 65px;
+}
+/*suresite-new*/
+.course-details span {
+    padding: 10px;
+}
+.academic-section {
+    padding-bottom: 74px;
+}
+.testimonial-inner-cont h6 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.testimonial-inner-cont p {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.testimonial-inner span a {
+    font-size: 15px;
+}
+.testimonial-inner span {
+    padding-top: 15px;
+}
+.testimonial-inner-cont strong {
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+.owl-controls {
+    top: 32%;
+}
+.footer-parts p {
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer-parts.qk-links ul li a, .footer-parts.location-sec p {
+    font-size: 16px;
+}
+.footer-parts.qk-links ul li {
+    margin-bottom: 24px;
+}
+.footer-parts.qk-links h5, .footer-parts.location-sec h5 {
+    font-size: 22px;
+}
+.footer-parts.location-sec p {
+    margin: 0 0 33px 0;
+}
+.footer-parts p {
+    margin: 18px 0px 55px 0px;
+}
+.end-footer-inner-section p {
+    font-size: 14px;
+}
+.article-slider-inner {
+    margin: 50px auto 0 auto;
+}
+.footer {
+    padding: 60px 0 39px 0;
+}
+
+}
+@media only screen and (min-width:1280px) and (max-width:1700px){
+.footer-parts.qk-links {
+    padding-left: 10%;
+}
+.footer-parts.location-sec {
+    padding-left: 8%;
+}
+.as_img {
+    max-width: 90%;
+}
+}	
+
+@media only screen and (max-width:767px){
+.menu-parent {
+    display: block;
+}
+.header-section-right > ul {
+    height: 100vh;
+    background: #2443db;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 12;
+    padding: 20px 10px;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    transition: all cubic-bezier(0.46, 0.03, 0.52, 0.96) 0.4s;
+    flex-wrap: inherit !important;
+    width: 250px;
+    display: block;
+    padding-top: 20px;
+	align-items: center;
+}
+.header-section-right.menu-class > ul {
+    left: 0px;
+}
+.banner-section .carousel-control-prev img, .banner-section .carousel-control-next img {
+    max-width: 35px;
+}
+.banner-caption {
+    padding: 30px 30px 30px 50px;
+    width: 100%;
+}
+.pre-header-inner, .academic-section-inner
+{padding-left:0!important;padding-right:0!important;}
+.pre_header-right p {
+    text-align: left!important;
+}
+.pre_header-right {
+    margin-top:15px;
+}
+.banner-section .carousel-item, .banner-section .carousel-inner {
+    height: 300px;
+}
+.banner-caption h3 {
+    font-size: 20px;
+}
+.banner-caption p {
+    font-size: 15px;
+    margin: 13px 0px 17px 0px;
+   max-width: 90%;
+}
+.btn.load-more {
+    width: 125px;
+    font-size: 14px;
+    height: 42px;
+}
+.ss-heading {
+    font-size: 23px;
+    line-height: 32px;
+}
+.course-details {
+    width: 100%;
+}
+.course-details:nth-child(even) span {
+    margin-left: 0;
+}
+.owl-next {
+    right: -26px;
+}
+.owl-prev {
+    left: -26px;
+}
+.article-slider-inner {
+    max-width: 92%;
+}
+.footer-parts.qk-links ul {
+    margin-top: 25px;
+}
+.footer-parts.qk-links {
+    margin-top: 36px;
+    margin-bottom: 20px;
+}
+.end-footer-right.text-right {
+    text-align: center!important;
+}
+.end-footer-left {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.types-of-course {
+    padding-left: 15px;
+	padding-top: 30px;
+}
+.academic-section-left p {
+    max-width: 100%;
+}
+.academic-section-inner {
+    padding-top: 60px;
+}
+.owl-prev, .owl-next {
+    width: 35px!important;
+    height: 67px;
+}
+.header-section {
+    z-index: 12;
+	position: relative;
+}
+.header-section-bg {
+    padding-left: 0;
+    padding-right: 0;
+}
+.header-section-inner {
+    padding: 15px 0 15px 0 !important;
+}
+.carousel-inner img {
+    object-fit: cover;
+}
+#toggle {
+    margin-top: 19px;
+}
+.header-section-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-section-right ul li {
+    float: none;
+	margin-right:0;
+	margin-bottom:30px;
+}
+.header-section-right li a {
+    color: #fff;
+}
+.header-section-right li.active a {
+    color: #ff5511;
+}
+.header-section-right li.active:after{display:none;}
+.header-section-right li #myDropdown a {
+    color: #2443db;
+}
+.banner-caption {
+    left: 0;
+}
+.banner-section .carousel-control-prev {
+    left: 2%!important;
+	    top: 13%;
+}
+.banner-section .carousel-control-next {
+    right: 2%!important;
+	    top: 13%;
+}
+.academic-section {
+    padding-bottom: 55px;
+}
+
+#toggle {
+    margin-top: 18px;
+}
+.footer-parts p {
+    margin: 18px 0px 30px 0px;
+}
+.header-section .container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.header-section-left.pl-0{padding-left: 10px!important;}
+.course-details b {
+    word-break: break-word; 
+	padding-right: 10px;
+}
+.course-details svg {
+    width: 55px;
+    height: 55px;
+}
+.asr-rgt-arrow {
+    right: 20px;
+}
+}/* 767 end */
+	
+@media only screen and (min-width:768px) and (max-width:991px){
+.menu-parent {
+    display: block;
+}
+.header-section-right > ul {
+    height: 100vh;
+    background: #2443db;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 12;
+    padding: 20px 10px;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    transition: all cubic-bezier(0.46, 0.03, 0.52, 0.96) 0.4s;
+    flex-wrap: inherit !important;
+    width: 400px;
+    display: block;
+    padding-top: 20px;
+	align-items: center;
+}
+.header-section-right.menu-class > ul {
+    left: 0px;
+}
+.header-section-right {
+    padding-right: 0!important;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-section-right li.active a {
+    color: #ff5511;
+}
+.header-section-right li.active:after{display:none;}
+.header-section-right li #myDropdown a {
+    color: #2443db;
+}
+.header-section-right ul li {
+    float: none;
+	margin-right:0;
+	margin-bottom:30px;
+}
+.header-section-right li a {
+    color: #fff;
+}
+.banner-caption {
+    width: 557px;
+	top: 62%;
+	left: 0;
+    right: 0;
+}
+.banner-section .carousel-control-prev {
+    left: 20px!important;
+}
+.banner-section .carousel-control-next {
+    right: 20px!important;
+}
+.types-of-course {
+    padding-left: 0;
+    padding-top: 50px;
+}
+.footer-parts.qk-links {
+    margin: 40px 0px 20px 0px;
+}
+.footer-parts p {
+    margin: 18px 0px 30px 0px;
+}
+.academic-section-left p {
+    max-width: 100%;
+}
+
+}/* Ipad end */
+
+@media only screen and (min-width:992px) and (max-width:1280px){
+.academic-section-left p {
+    max-width: 100%;
+}
+.course-details svg {
+    width: 60px;
+    height: 60px;
+}
+.types-of-course {
+    padding-left: 20px;
+}
+.header-section-right ul li {
+    margin-right: 20px;
+}
+.header-section-bg {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.dropbtn {
+    width: 128px;
+}
+.course-details b {
+    padding-left: 15px;
+    padding-right: 20px;
+}
+}
+
+@media only screen and (min-width:500px) and (max-width:767px){
+.pre_header-left, .pre_header-right {
+    width: 50%!important;
+    max-width: 50%!important;
+    margin-top: 0;
+}
+.pre_header-right {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-section .carousel-control-prev {
+    left: 0%!important;
+}
+.banner-section .carousel-control-next {
+    right: 2%!important;
+}
+}
+
+@media only screen and (min-width:1700px) {
+.footer-parts.location-sec {
+    padding-left: 93px;
+}
+.footer-parts.qk-links {
+    padding-left: 110px;
+}
+}
