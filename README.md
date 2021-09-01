@@ -68,9 +68,10 @@ Required parameters for Teacher(GET method)
 3)Classname
 
 Required parameters for student(GET method)
-`/teacher/join/twilioroom/{id}/{username}`
+`/teacher/join/twilioroom/{id}/{username}/{studentid}`
 1)Roomname
 2)Username
+3)Studentid
 
 
 
