@@ -47,7 +47,7 @@ Route::post('/twilio/roomupdate', 'VideoRoomsController@twilioRoomUpdate')->name
  /*both teacher and student*/
 
  /*twilio class_join Student*/
-Route::get('/student/join/twilioroom/{id}/{username}', 'VideoRoomsController@studentJoinRoom')->name('twilioroomstudent');
+Route::get('/student/join/twilioroom/{id}/{username}/{studentid}', 'VideoRoomsController@studentJoinRoom')->name('twilioroomstudent');
 Route::post('/student/twilio/checkstudentstatus', 'VideoRoomsController@checkStudentStatus')->name('twiliocheckstudent');
 Route::post('/student/twilio/checkteststatus', 'VideoRoomsController@checkTestStatus')->name('twiliocheckteststatus');/*used to check proctor allowed the student to access twilio*/
 Route::post('/student/twilio/participantrecord', 'VideoRoomsController@participantRecordUpdate')->name('twilioparticipantrecord');

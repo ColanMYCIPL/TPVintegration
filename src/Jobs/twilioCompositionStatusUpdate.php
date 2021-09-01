@@ -13,11 +13,11 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use App\Http\Controllers\VideoRoomsController;
-use App\TwilioRoom;
-use App\TwilioConnectedRoom;
-use App\TwilioConnectedParticipant;
-use App\TwilioParticipantRecord;
+use ColanMYCIPL\TPVintegration\Http\Controllers\VideoRoomsController;
+use App\Models\TwilioRoom;
+use App\Models\TwilioConnectedRoom;
+use App\Models\TwilioConnectedParticipant;
+use App\Models\TwilioParticipantRecord;
 
 class twilioCompositionStatusUpdate implements ShouldQueue
 {

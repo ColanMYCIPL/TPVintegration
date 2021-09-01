@@ -1,6 +1,6 @@
 <?php
 
-namespace ColanMYCIPL\TPVintegration\Models;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
